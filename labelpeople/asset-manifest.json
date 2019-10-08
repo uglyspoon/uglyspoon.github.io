@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/labelpeople/static/css/main.2352812a.chunk.css",
-    "main.js": "/labelpeople/static/js/main.c1a26ee6.chunk.js",
-    "main.js.map": "/labelpeople/static/js/main.c1a26ee6.chunk.js.map",
+    "main.js": "/labelpeople/static/js/main.ff188e83.chunk.js",
+    "main.js.map": "/labelpeople/static/js/main.ff188e83.chunk.js.map",
     "runtime~main.js": "/labelpeople/static/js/runtime~main.2e4a022d.js",
     "runtime~main.js.map": "/labelpeople/static/js/runtime~main.2e4a022d.js.map",
-    "static/js/2.a80529e0.chunk.js": "/labelpeople/static/js/2.a80529e0.chunk.js",
-    "static/js/2.a80529e0.chunk.js.map": "/labelpeople/static/js/2.a80529e0.chunk.js.map",
+    "static/js/2.9e47da1e.chunk.js": "/labelpeople/static/js/2.9e47da1e.chunk.js",
+    "static/js/2.9e47da1e.chunk.js.map": "/labelpeople/static/js/2.9e47da1e.chunk.js.map",
     "index.html": "/labelpeople/index.html",
-    "precache-manifest.24881a2ec837d967ebdc15aa4818dab8.js": "/labelpeople/precache-manifest.24881a2ec837d967ebdc15aa4818dab8.js",
+    "precache-manifest.fbec40ac6f992fe3ffc0790eb33736a1.js": "/labelpeople/precache-manifest.fbec40ac6f992fe3ffc0790eb33736a1.js",
     "service-worker.js": "/labelpeople/service-worker.js",
     "static/css/main.2352812a.chunk.css.map": "/labelpeople/static/css/main.2352812a.chunk.css.map"
   }
