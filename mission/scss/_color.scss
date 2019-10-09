@@ -1,0 +1,51 @@
+@function p($px, $base-font-size: 19.2px) {
+  @if (unitless($px)) {
+    //有无单位
+    @return ($px / 19.2) * 1rem;
+  }
+
+  @else if (unit($px)==em) {
+    @return $px;
+  }
+
+  // @return $px;
+  @return ($px / $base-font-size) * 1rem;
+}
+
+//颜色变量
+$C-FFF: #FFFFFF;
+$C-F7F7F7: #F7F7F7;
+$C-CECECE: #CECECE;
+$C-D40A43: #D40A43;
+$C-FA9B02: #FA9B02;
+$C-FFC05C: #FFC05C;
+$C-333: #333333;
+$C-666: #666666;
+$C-999: #999999;
+$C-000: #000000;
+$C-707070: #707070;
+$C-FFB102:#FFB102;
+$C-086B5E: #086B5E;
+$C-006858: #006858;
+$C-EFF8F7: #EFF8F7;
+$C-00A088: #00BAA2;
+$C-FFF3B2: #FFF3B2;
+$C-C18600: #C18600;
+$C-00BAA2: #00BAA2;
+$C-EDEDED: #EDEDED;
+$C-E7F7F6 : #E7F7F6;
+$C-E0F2F1: #E0F2F1;
+$C-DEDEDE: #DEDEDE;
+$C-D80643: #D80643;
+$C-FA9B03: #FA9B03;
+$C-02CAEF: #02CAEF;
+$C-006759: #006759;
+$C-FFD1DE: #FFD1DE;
+$C-D90D48: #D90D48;
+$C-EAEAEA: #EAEAEA;
+
+$bg-ground:#F7F9FC;
+
+
+//new mission
+$C-F7FFFE: #F7FFFE;

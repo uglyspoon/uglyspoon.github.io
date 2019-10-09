@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>新建文档</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="./assets/bootstrap2/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/bootstrap2/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="./assets/css/base.css" rel="stylesheet">
+  <link href="./assets/css/header.css" rel="stylesheet">
+  <link href="./assets/css/mission.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="masthead">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="#"><img src="./assets/icon/home.png" alt=""><span>主页</span></a></li>
+        <li><a href="#"><img src="./assets/icon/mail.png" alt=""><span>通知</span></a></li>
+        <li class="dropdown">
+          <!--  <li class="dropdown open">  -->
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="./assets/icon/website.png" alt="">华讯站点 <b
+              class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <!--  <li class="dropdown open">  -->
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="./assets/icon/question.png" alt="">帮助 <b
+              class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>退出</span></a></li>
+      </ul>
+      <!-- <h3 class="muted">Project name</h3> -->
+      <img src="./assets/image/logo.png" alt="">
+    </div>
+  </header>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="sidebar open-sider">
+        <div class="logo-wrapper  flex-center-center">
+          <img src="./assets/image/mission-logo.svg" alt="">
+        </div>
+
+        <ul class="none-style-list sider-menulist">
+          <span class="sub-nav f14">项目任务</span>
+          <li class="active">
+            <div>
+              我的签到
+              <img src="./assets/icon/arrow_up.svg" alt="" class="arrow">
+            </div>
+            <ul>
+              <li>
+                <img src="./assets/icon/doing.svg" alt="">
+                进行中的任务
+                <span>8</span>
+              </li>
+              <li>
+                <img src="./assets/icon/editing.svg" alt="">
+                编辑中的任务
+                <span>5</span>
+              </li>
+              <li>
+                <img src="./assets/icon/to-upload.svg" alt="">
+                待发布的任务
+                <span>5</span>
+              </li>
+              <li>
+                <img src="./assets/icon/to-close.svg" alt="">
+                待关闭的任务
+                <span>5</span>
+              </li>
+              <li>
+                <img src="./assets/icon/closed.svg" alt="">
+                年度已关闭的任务
+                <span>65</span>
+              </li>
+              <li>
+                <img src="./assets/icon/all-closed.svg" alt="">
+                全部已关闭的任务
+                <span>800</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              团队任务
+              <img src="./assets/icon/arrow_right.svg" alt="" class="arrow">
+            </div>
+            <ul style="display: none">
+              <li>
+                <img src="./assets/icon/doing.svg" alt="">
+                进行中的任务
+                <span>8</span>
+              </li>
+              <li>
+                <img src="./assets/icon/editing.svg" alt="">
+                编辑中的任务
+                <span>5</span>
+              </li>
+            </ul>
+          </li>
+          <span class="sub-nav f14">其他任务</span>
+          <li>
+            <div>
+              我的任务
+              <img src="./assets/icon/arrow_right.svg" alt="" class="arrow">
+            </div>
+            <ul style="display: none">
+              <li>
+                <img src="./assets/icon/doing.svg" alt="">
+                进行中的任务
+                <span>8</span>
+              </li>
+              <li>
+                <img src="./assets/icon/editing.svg" alt="">
+                编辑中的任务
+                <span>5</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              团队任务
+              <img src="./assets/icon/arrow_right.svg" alt="" class="arrow">
+            </div>
+            <ul style="display: none">
+              <li>
+                <img src="./assets/icon/doing.svg" alt="">
+                进行中的任务
+                <span>8</span>
+              </li>
+              <li>
+                <img src="./assets/icon/editing.svg" alt="">
+                编辑中的任务
+                <span>5</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="toggle-sidebar">
+          <img src="./assets/icon/left-arrow.svg" alt="">
+        </div>
+      </div>
+      <div class="main-content">
+        <!--Body content-->
+        <div class="welcome-box">
+          <div>
+            <div class="jump-link" data-target="/"><img src="./assets/icon/home.svg" alt="">返回首页</div>
+            <input type="text" id="sreach-bar" placeholder="请输入">
+            <button class="btn-query-green">搜索</button>
+          </div>
+          <div><img src="./assets/icon/add-mission.svg" alt="">创建任务</div>
+        </div>
+        <main>
+          <p class="title">进行中任务</p>
+          <div class="table-wrapper">
+            <table class="process">
+              <thead>
+                <tr>
+                  <th>任务编号</th>
+                  <th>任务名称</th>
+                  <th>所属项目</th>
+                  <th>项目类型</th>
+                  <th>项目阶段</th>
+                  <th>计划时间</th>
+                  <th>执行人</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+                <tr>
+                  <td>#npc-14406707789</td>
+                  <td>安装测试软件环境</td>
+                  <td>（STD-201904A）2019管理优化项目-赵金毅（2019）</td>
+                  <td>战略发展项目（c型）</td>
+                  <td>项目实施 环境准备</td>
+                  <td>2019/05/01至2019/11/01</td>
+                  <td>赵金毅 沈娜 卢璐 常慧 李丽 林立</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="pagination-wrapper">
+              <ul>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </main>
+      </div>
+
+    </div>
+  </div>
+  <script src="./assets/js/jquery-1.11.1.min.js"></script>
+  <script>
+    $(function () {
+      $('ul.sider-menulist>li>div').click(function () {
+        $(this).parent('li').find('ul').toggle()
+        var arrow_icon = $(this).find('img').last();
+        if (arrow_icon.attr('src').indexOf('right') !== -1) {
+          arrow_icon.attr('src', arrow_icon.attr('src').replace('right', 'up'))
+        } else {
+          arrow_icon.attr('src', arrow_icon.attr('src').replace('up', 'right'))
+        }
+      })
+      $('.jump-link').click(function () {
+        var target = $(this).data('target')
+        window.location.href = target
+      })
+      $('.toggle-sidebar').hover(function () {
+        var src = $(this).find('img').attr('src').split('.svg')
+        src.push('-w', '.svg')
+        src = src.join('')
+        $(this).find('img').attr('src', src)
+        $('.sidebar').addClass('active')
+      }, function () {
+        $(this).find('img').attr('src', $(this).find('img').attr('src').replace('-w', ''))
+        $('.sidebar').removeClass('active')
+      })
+      $('.toggle-sidebar').click(function () {
+        if ($('.sidebar').hasClass('close-sider')) {
+          $('.sidebar').addClass('open-sider')
+          $('.sidebar').removeClass('close-sider')
+
+        } else {
+          $('.sidebar').addClass('close-sider')
+          $('.sidebar').removeClass('open-sider')
+        }
+        var origin = $(this).find('img').attr('src')
+        var src = origin.indexOf('right') === -1 ? origin.replace('left', 'right') : origin.replace('right',
+          'left')
+        $(this).find('img').attr('src', src)
+      })
+    })
+  </script>
+</body>
+
+</html>

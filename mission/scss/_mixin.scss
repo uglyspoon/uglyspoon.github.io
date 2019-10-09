@@ -1,0 +1,140 @@
+@mixin padding-box-20 {
+  padding-top: p(20px);
+  padding-left: p(25px);
+  padding-right: p(25px);
+  padding-bottom: p(25px);
+}
+
+@mixin checkbox {
+  width: p(20px);
+  height: p(20px);
+  border-radius: p(2px);
+  border-color: #DEDEDE;
+  box-shadow: none;
+  display: inline-block;
+}
+
+@mixin table {
+  background: $C-FFF;
+
+  >thead {
+    background: $C-006858;
+    font-size: p(18px);
+    color: $C-FFF;
+
+    th {
+      border-bottom: none;
+    }
+  }
+
+  >tbody {
+    border: 1px solid $C-DEDEDE;
+    border-top: none;
+    border-bottom: none;
+
+    >tr {
+      border-bottom: 1px solid $C-DEDEDE;
+      height: p(90px);
+
+      >td {
+        vertical-align: middle;
+        border-top: none;
+        font-size: p(20px);
+        color: $C-333;
+      }
+    }
+  }
+}
+
+
+@mixin table-white {
+  background: $C-FFF;
+  width: 100%;
+
+  >thead {
+    font-size: p(20px);
+    color: $C-333;
+
+    th {
+      height: p(60px);
+      border-bottom: none;
+    }
+  }
+
+  >tbody {
+    border: 1px solid $C-DEDEDE;
+    border-top: none;
+    border-bottom: none;
+
+    >tr {
+      border: 1px solid #F4F4F4;
+
+      >td {
+        vertical-align: middle;
+        text-align: center;
+        font-size: p(16px);
+        padding: p(15px) 0;
+        max-width: p(350px);
+
+        color: $C-666;
+      }
+    }
+  }
+}
+
+@mixin table-rule {
+  background: $C-FFF;
+  width: 100%;
+
+  >thead {
+    background: $C-00A088;
+    font-size: p(16px);
+    color: $C-FFF;
+
+    th {
+      border-bottom: none;
+      font-weight: normal;
+
+      &:first-child {
+        padding-left: p(55px);
+        width: 30%;
+      }
+    }
+  }
+
+  >tbody {
+    border: 1px solid $C-EDEDED;
+    border-top: none;
+    border-bottom: none;
+
+    >tr {
+      border-bottom: 1px solid $C-DEDEDE;
+      height: p(90px);
+
+      >td {
+        &:first-child {
+          padding-left: p(55px);
+        }
+
+        vertical-align: middle;
+        border-top: none;
+        font-size: p(20px);
+        color: $C-333;
+      }
+    }
+  }
+}
+
+@mixin span-btn {
+  display: inline-block;
+  text-align: center;
+  border-radius: p(4px);
+
+  &:hover {
+    // text-decoration: underline;
+    // font-weight: bold;
+    color: $C-FFF;
+  }
+
+  cursor: pointer;
+}

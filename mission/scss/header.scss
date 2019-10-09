@@ -1,0 +1,56 @@
+@import 'color.scss';
+
+//header
+header {
+  background: $C-FFF;
+  padding: p(30px) p(110px);
+
+  img {
+    width: p(159px);
+    height: p(60px);
+  }
+
+  .nav {
+    li {
+      img {
+        width: p(28px);
+        height: p(28px);
+        margin-right: p(5px);
+      }
+
+      >a {
+        color: $C-707070;
+        display: block;
+        line-height: p(28px);
+
+        >span {
+          font-size: p(18px);
+          vertical-align: middle;
+        }
+      }
+    }
+
+
+  }
+
+  //hot fix 
+  .nav {
+    .dropdown-toggle {
+
+      &:active,
+      &:hover {
+        .caret {
+          border-top-color: $C-CECECE;
+          border-bottom-color: $C-CECECE;
+        }
+
+      }
+
+      .caret {
+        border-top-color: $C-CECECE;
+        border-bottom-color: $C-CECECE;
+      }
+    }
+
+  }
+}
