@@ -780,7 +780,7 @@ body {
 }
 
 .C-00A088 {
-  color: #00BAA2 !important;
+  color: #00A088 !important;
 }
 
 .C-00BAA2 {
@@ -1266,7 +1266,7 @@ body {
 .label-box-2 {
   border-radius: 0.15625rem;
   background-color: #EFF8F7;
-  color: #00BAA2;
+  color: #00A088;
   font-size: 0.8333333333rem;
   line-height: 1.5625rem;
   padding: 0 0.5208333333rem;
@@ -1290,7 +1290,7 @@ body {
 }
 
 .btn-00A088-1 {
-  color: #00BAA2;
+  color: #00A088;
   display: inline-block;
   font-size: 0.9375rem;
   padding-left: 2.1875rem;
@@ -1299,14 +1299,14 @@ body {
   line-height: 2.3958333333rem;
   margin-right: 1.4583333333rem;
   background-color: #FFFFFF;
-  border: 1px solid #00BAA2;
+  border: 1px solid #00A088;
   border-radius: 0.2083333333rem;
   cursor: pointer;
 }
 .btn-00A088-1:hover {
   text-decoration: none;
   background-color: #f2f2f2;
-  color: #00BAA2;
+  color: #00A088;
 }
 
 .btn-00A088-2 {
@@ -1359,18 +1359,18 @@ body {
   text-align: center;
   border-radius: 0.2083333333rem;
   cursor: pointer;
-  color: #00BAA2;
+  color: #00A088;
   padding: 0 0.5208333333rem;
   font-size: 0.7291666667rem;
   line-height: 1.7708333333rem;
   background-color: #FFFFFF;
-  border: 1px solid #00BAA2;
+  border: 1px solid #00A088;
 }
 .btn-00A088-empty:hover {
   color: #FFFFFF;
 }
 .btn-00A088-empty:hover {
-  color: #00BAA2;
+  color: #00A088;
   background-color: #f2f2f2;
 }
 
@@ -1416,29 +1416,29 @@ body {
 .btn-query-green {
   color: #FFFFFF;
   display: inline-block;
-  padding: 0 1.9270833333rem;
+  padding: 0 2.6041666667rem;
   font-size: 0.9375rem;
   text-align: center;
   line-height: 2.3958333333rem;
   height: 2.3958333333rem;
   margin-right: 1.4583333333rem;
-  background-color: #00BAA2;
-  border: 1px solid #00BAA2;
+  background-color: #00A088;
+  border: 1px solid #00A088;
   border-radius: 1.0416666667rem;
   white-space: nowrap;
   cursor: pointer;
 }
 .btn-query-green:hover {
-  background-color: #00a18c;
+  background-color: #008772;
 }
 
 .a-link-00A088 {
-  color: #00BAA2;
+  color: #00A088;
   font-size: 0.9375rem;
 }
 .a-link-00A088:hover {
   text-decoration: underline;
-  color: #00BAA2;
+  color: #00A088;
 }
 
 .order-00A088-1 {
@@ -1447,7 +1447,7 @@ body {
   line-height: 1.0416666667rem;
   text-align: center;
   width: 1.0416666667rem;
-  background: #00BAA2;
+  background: #00A088;
   color: #FFFFFF;
   font-size: 0.7291666667rem;
   border-radius: 50%;
@@ -1455,14 +1455,14 @@ body {
 
 .order-00A088-2 {
   height: 1.5625rem;
-  border: 1px solid #00BAA2;
+  border: 1px solid #00A088;
   display: block;
   margin: 0 auto;
   line-height: 1.5625rem;
   text-align: center;
   width: 1.5625rem;
   background: #FFFFFF;
-  color: #00BAA2;
+  color: #00A088;
   font-size: 0.9375rem;
   border-radius: 50%;
 }

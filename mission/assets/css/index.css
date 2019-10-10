@@ -35,7 +35,7 @@ header.no-border {
   display: inline-block;
   width: 100%;
   line-height: 1.3541666667rem;
-  color: #00BAA2;
+  color: #00A088;
   background: #F7FFFE;
   padding-left: 2.34375rem;
 }
@@ -90,7 +90,7 @@ header.no-border {
 
 .odernumber {
   display: inline-block;
-  background: #00BAA2;
+  background: #00A088;
   line-height: 0.9375rem;
   text-align: center;
   font-size: 0.625rem;
@@ -167,7 +167,7 @@ header.no-border {
   height: 3.125rem;
 }
 .nav-container .nav-list > li.hover, .nav-container .nav-list > li:hover {
-  color: #00a18c;
+  color: #008772;
 }
 .nav-container .nav-list > li > span {
   position: relative;
@@ -259,7 +259,7 @@ header.no-border {
   border-bottom: 1px dashed #d8ebe9;
 }
 .expand-menu ul.expand-level1 li.hover, .expand-menu ul.expand-level1 li:hover {
-  color: #00BAA2;
+  color: #00A088;
   background: #ddf0ee;
 }
 .expand-menu ul.expand-level1 li.hover:after {

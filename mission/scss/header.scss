@@ -2,12 +2,15 @@
 
 //header
 header {
+  box-sizing: border-box;
   background: $C-FFF;
-  padding: p(30px) p(110px);
+  padding-left: p(85px);
+  height: p(80px);
+  display: flex;
+  align-items: center;
 
   img {
-    width: p(159px);
-    height: p(60px);
+    width: p(120px);
   }
 
   .nav {

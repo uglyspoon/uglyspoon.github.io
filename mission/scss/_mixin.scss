@@ -14,6 +14,57 @@
   display: inline-block;
 }
 
+@mixin btn {
+
+  color: $C-00A088;
+  display: inline-block;
+  font-size: p(18px);
+  padding-left: p(34px);
+  padding-right: p(34px);
+  text-align: center;
+  line-height: p(40px);
+  margin-right: p(20px);
+  margin-left: p(20px);
+  background-color: $C-FFF;
+  border: 1px solid $C-00A088;
+
+  border-radius: 4px;
+
+  &:hover {
+    text-decoration: none;
+    background-color: darken($C-FFF, 5%);
+  }
+
+  cursor: pointer;
+
+}
+
+@mixin btn-fill {
+
+  color: $C-FFF;
+  display: inline-block;
+  font-size: p(18px);
+  padding-left: p(34px);
+  padding-right: p(34px);
+  text-align: center;
+  line-height: p(40px);
+  margin-right: p(20px);
+  margin-left: p(20px);
+  background-color: $C-00A088;
+  border: 1px solid $C-00A088;
+
+  border-radius: 4px;
+
+  &:hover {
+    text-decoration: none;
+    background-color: darken($C-00A088, 5%);
+    color: $C-FFF;
+  }
+
+  cursor: pointer;
+
+}
+
 @mixin table {
   background: $C-FFF;
 

@@ -1465,6 +1465,7 @@ body {
   cursor: pointer;
 }
 
+
 .btn-00A088-2 {
   color: $C-FFF;
   display: inline-block;
@@ -1573,19 +1574,19 @@ body {
 .btn-query-green {
   color: $C-FFF;
   display: inline-block;
-  padding: 0 p(37px);
+  padding: 0 p(50px);
   font-size: p(18px);
   text-align: center;
   line-height: p(46px);
   height: p(46px);
   margin-right: p(28px);
-  background-color: $C-00A088;
-  border: 1px solid $C-00A088;
+  background-color: #00A088;
+  border: 1px solid #00A088;
   border-radius: p(20px);
   white-space: nowrap;
 
   &:hover {
-    background-color: darken($C-00A088, 5%);
+    background-color: darken(#00A088, 5%);
   }
 
   cursor: pointer;
