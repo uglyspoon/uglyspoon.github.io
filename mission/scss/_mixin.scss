@@ -103,12 +103,13 @@
   width: 100%;
 
   >thead {
-    font-size: p(20px);
+    font-size: p(16px);
     color: $C-333;
 
     th {
       height: p(60px);
       border-bottom: none;
+      // font-weight: normal;
     }
   }
 

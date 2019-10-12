@@ -768,7 +768,9 @@ $font-size: 19.2px;
 
 
 html {
-  font-size: 19.2px;
+  // font-size: 19.2px;
+  // font-size: 19.20px;
+  font-size: 14.40px;
   /*默认以设计稿为基准*/
 
 }
@@ -792,19 +794,19 @@ body {
 
 @media only screen and (min-width: 1920px) {
   html {
-    font-size: 19.20px;
+    // font-size: 19.20px;
   }
 }
 
 @media (min-width: 1367px) and (max-width: 1440px) {
   html {
-    font-size: 14.40px;
+    // font-size: 14.40px;
   }
 }
 
 @media (min-width: 1281px) and (max-width: 1366px) {
   html {
-    font-size: 13.66px;
+    // font-size: 13.66px;
   }
 }
 
@@ -820,7 +822,7 @@ body {
   //   visibility: hidden;
   // }
   html {
-    font-size: 12.80px;
+    // font-size: 12.80px;
   }
 }
 
@@ -1582,7 +1584,7 @@ body {
   margin-right: p(28px);
   background-color: #00A088;
   border: 1px solid #00A088;
-  border-radius: p(20px);
+  border-radius: p(100px);
   white-space: nowrap;
 
   &:hover {
