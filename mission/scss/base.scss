@@ -926,12 +926,12 @@ body {
    兼容性：ios 4+、android 2.3+、winphone8+、IE10+、Safari、Opera、Chrome、Firefox
    ============================================================ */
 .flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -moz-box;
-  display: -moz-flex;
-  display: flex;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: -moz-box !important;
+  display: -moz-flex !important;
+  display: flex !important;
 }
 
 .flex-v {
@@ -1662,10 +1662,10 @@ body {
 //pagination
 
 .pagination-wrapper {
-  // bottom: p(40px);
-  // left: 50%;
-  // transform: translateX(-50%);
-  margin: 30px auto 30px;
+  position: absolute;
+  bottom: p(160px);
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
 

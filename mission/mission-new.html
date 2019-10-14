@@ -14,16 +14,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
 
   <link href="./assets/css/base.css" rel="stylesheet">
-  <link href="./assets/css/header.css" rel="stylesheet">
+  <link href="./assets/css/common.css" rel="stylesheet">
   <link href="./assets/css/mission.css" rel="stylesheet">
-  <style>
-
-  </style>
 </head>
 
 <body>
   <header>
-    <img src="./assets/image/logo.png" alt="">
+    <img src="./assets/image/logo.png" alt="" class="logo">
   </header>
   <div class="container-fluid">
     <div class="row-fluid">
@@ -85,14 +82,16 @@
             </div>
             <ul style="display: none">
               <li>
-                <img src="./assets/icon/doing.svg" alt="">
-                进行中的任务
-                <span>8</span>
+                <div class="closed">
+                  年度已关闭的任务
+                  <span>3365</span>
+                </div>
               </li>
               <li>
-                <img src="./assets/icon/editing.svg" alt="">
-                编辑中的任务
-                <span>5</span>
+                <div class="all-closed">
+                  全部已关闭的任务
+                  <span>10393</span>
+                </div>
               </li>
             </ul>
           </li>
@@ -104,14 +103,16 @@
             </div>
             <ul style="display: none">
               <li>
-                <img src="./assets/icon/doing.svg" alt="">
-                进行中的任务
-                <span>8</span>
+                <div class="all-closed">
+                  全部已关闭的任务
+                  <span>10393</span>
+                </div>
               </li>
               <li>
-                <img src="./assets/icon/editing.svg" alt="">
-                编辑中的任务
-                <span>5</span>
+                <div class="all-closed">
+                  全部已关闭的任务
+                  <span>10393</span>
+                </div>
               </li>
             </ul>
           </li>
@@ -122,14 +123,16 @@
             </div>
             <ul style="display: none">
               <li>
-                <img src="./assets/icon/doing.svg" alt="">
-                进行中的任务
-                <span>8</span>
+                <div class="all-closed">
+                  全部已关闭的任务
+                  <span>10393</span>
+                </div>
               </li>
               <li>
-                <img src="./assets/icon/editing.svg" alt="">
-                编辑中的任务
-                <span>5</span>
+                <div class="all-closed">
+                  全部已关闭的任务
+                  <span>10393</span>
+                </div>
               </li>
             </ul>
           </li>
@@ -142,7 +145,9 @@
         <div class="control-bar">
           <div>
             <img src="./assets/icon/control.svg" alt="">
-            <span class="title">项目控制工作流</span>
+            <span class="title">
+              <span id="step-name">项目控制</span>工作流
+            </span>
             <span class="desc">当前已添加任务</span>
             <span class="number">1</span>
           </div>
@@ -233,10 +238,14 @@
                 </div>
               </div>
               <div class="row-fluid mt20">
-
                 <div class="span4">
                   <div class="form-item-2">
-                    <span>工作流</span>
+                    <span class="flex flex-pack-justify flex-align-center ">
+                      <i class="task-tag">
+                        1
+                      </i>
+                      工作流
+                    </span>
                     <select class="js-example-basic-single" name="states">
                       <option value="AL">Alabama</option>
                       <option value="CT">Connecticut</option>
@@ -245,17 +254,17 @@
                     </select>
                   </div>
                 </div>
-                <div class="span3 offset5 delete-group">
+                <!-- <div class="span3 offset5 delete-group">
                   <img src="./assets/icon/delete.svg" alt="">
                   <span>删除当前工作流</span>
                   <img src="./assets/icon/warning.svg" alt="">
-                </div>
+                </div> -->
               </div>
               <div class="row-fluid mt20" style="position: relative; display: flex;">
-                <div class="task-label">
+                <!-- <div class="task-label">
                   <span>任务1</span>
                   <img src="./assets/icon/arrow-down-round.svg" alt="">
-                </div>
+                </div> -->
                 <div class="span4" style="margin-left: 0px;">
                   <div class="form-item-2">
                     <span>任务类型</span>
@@ -685,6 +694,9 @@
             if ($(this).attr('src').indexOf('-selected') === -1) {
               icon.attr('src', icon.attr('src').replace('.svg', '-selected.svg'))
             }
+            //给下面的步骤名称赋值
+
+            $('#step-name').text($(this).next('span').text())
           } else {
             if ($(this).attr('src').indexOf('-selected') !== -1) {
               $(this).attr('src', $(this).attr('src').replace('-selected.svg', '.svg'))
@@ -693,10 +705,14 @@
         })
 
       })
+
+      //点击跳转
       $('.jump-link').click(function () {
         var target = $(this).data('target')
         window.location.href = target
       })
+
+      //收起侧边栏悬浮样式
       $('.toggle-sidebar').hover(function () {
         var src = $(this).find('img').attr('src').split('.svg')
         src.push('-w', '.svg')
@@ -707,6 +723,8 @@
         $(this).find('img').attr('src', $(this).find('img').attr('src').replace('-w', ''))
         $('.sidebar').removeClass('active')
       })
+
+      //点击收起侧边栏悬浮样式
       $('.toggle-sidebar').click(function () {
         if ($('.sidebar').hasClass('close-sider')) {
           $('.sidebar').addClass('open-sider')
@@ -739,15 +757,14 @@
         });
         console.log(values)
       })
+      //错误弹框关闭
       $('.error-box .btn-save').click(function () {
         $('.error-box').hide()
         $('.blocker').hide()
       })
 
-      $('.mission-btn-box .btn-submit').click(function () {
-        $('.control-bar').show()
-      })
 
+      //关闭全部弹框
       $('.close-circle').click(function () {
         $('.error-box').hide()
         $('.select-project-box').hide()
@@ -757,12 +774,14 @@
         document.body.style.overflow = 'auto';
       })
 
+      //选择项目
       $('input[name=project]').click(function () {
         document.body.style.overflow = 'hidden';
         $('.blocker').show()
         $('.select-project-box').show()
       })
 
+      //点击确定选择项目
       $('.project-list li').click(function () {
         $(this).addClass('selected').siblings('li').removeClass('selected')
         // $('.select-project-box .btn-submit').removeClass('disable')
@@ -789,6 +808,7 @@
         $('.select-executive-box').show()
       })
 
+      //选取执行人
       $('.name-list .radio-beauty').click(function () {
         var checked = !$(this).prev('input').prop('checked')
         var selected = $('.select-executive-box .selected')
@@ -800,6 +820,7 @@
           result[0].remove()
         }
       })
+      //执行人点击确定
       $('.select-executive-box .btn-submit').click(function () {
         document.body.style.overflow = 'auto';
         $('.blocker').hide()
@@ -810,10 +831,12 @@
         $('input[name="executive"]').val(texts.join('、'))
       })
 
+      //初始化js select2插件
+      //minimumResultsForSearch 隐藏搜索框
       $('.js-example-basic-single').select2({
         "minimumResultsForSearch": -1
       });
-
+      //总提交按钮
       $('.control-bar .btn-submit').click(function () {
         document.body.style.overflow = 'hidden';
         $('.plan-confirm-box').show()
