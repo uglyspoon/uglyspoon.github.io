@@ -407,3 +407,251 @@ main {
     }
   }
 }
+
+.blocker {
+  %btnbox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: p(24px);
+    height: p(40px);
+
+    .btn-submit.disable {
+      background: #82CFC3;
+      border: none;
+    }
+  }
+
+  .error-box {
+    position: relative;
+    background: $C-FFF;
+    border-radius: 5px;
+    height: p(240px);
+    width: p(436px);
+    padding: p(22px) p(75px);
+
+    .title {
+      font-size: p(24px);
+      color: #006858;
+    }
+
+    .content {
+      text-align: center;
+      color: #333333;
+      font-size: p(18px);
+      margin-top: p(20px);
+      margin-bottom: p(30px);
+    }
+
+  }
+
+  .select-project-box {
+    position: relative;
+    border-radius: 5px;
+    width: p(936px);
+    height: p(720px);
+    padding: p(22px) p(60px);
+    padding-bottom: p(64px);
+
+    .c-button--dropdown,
+    .c-dropdown__item {
+      color: #666;
+
+    }
+
+    .form-item {
+      >span:nth-of-type(1) {
+        width: auto;
+      }
+    }
+
+    >.close-circle {
+      width: p(30px);
+      height: p(30px);
+    }
+
+    input,
+    .c-dropdown {
+      margin-left: p(16px);
+    }
+
+    .title {
+      font-size: p(24px);
+      color: #00A088;
+    }
+
+    .btn-box {
+      @extend %btnbox;
+    }
+
+    .project-list {
+      height: p(400px);
+      overflow-y: auto;
+      overflow-x: hidden;
+
+      li {
+        display: flex;
+        align-items: center;
+        height: p(50px);
+        padding: 0 7px;
+        border-radius: 5px;
+        line-height: p(50px);
+        cursor: pointer;
+        color: #666666;
+
+        >input[type=radio] {
+          margin: 0;
+          margin-right: p(16px);
+        }
+
+        &:hover,
+        &.selected {
+          background: #F4F4F4;
+          color: #00A088;
+
+          .radio-beauty {
+            padding: 2px;
+            background-color: green;
+            background-clip: content-box;
+          }
+        }
+
+
+      }
+
+
+
+    }
+  }
+
+  .select-executive-box {
+    width: p(436px);
+    height: p(448px);
+    padding: p(20px) p(55px);
+    border-radius: 5px;
+
+    .close-circle {
+      width: p(22px);
+      height: p(22px);
+    }
+
+    >.title {
+      font-size: p(24px);
+      color: #006858;
+      margin-bottom: p(15px);
+    }
+
+    .name-list {
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      border-top: 1px dashed #F4F4F4;
+      max-height: p(250px);
+      justify-content: space-between;
+      color: #666666;
+      padding-top: 7px;
+
+      >div {
+        width: 48.717948717948715%;
+        margin: p(10px) 0;
+        text-align: left;
+
+        >* {
+          vertical-align: middle;
+        }
+
+      }
+
+      .radio-beauty {
+        margin: 0;
+      }
+
+      .name-label {
+        font-size: p(18px);
+      }
+
+      .name-type {
+        font-size: p(12px);
+        border-radius: 2px;
+        padding: 2px;
+        transform: scale(.7);
+        font-weight: bold;
+      }
+
+      .name-type-1 {
+        background: #00A088;
+        color: #fff;
+      }
+
+      .name-type-2 {
+        background: #0D5C4F;
+        color: #fff;
+      }
+
+      .name-type-3 {
+        background: #FFF;
+        color: #FFCC00;
+        border: 1px solid #FFCC00;
+      }
+
+      .name-type-4 {
+        background: #FFF;
+        color: #BFE8FF;
+        border: 1px solid #BFE8FF;
+      }
+    }
+
+    .selected {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: p(14px);
+      padding-bottom: 3px;
+
+      .title {
+        color: #999999;
+      }
+
+      >span:not(:first-of-type) {
+        // transition: all .2s;
+        color: #333333;
+        margin-left: p(10px);
+      }
+    }
+
+    .btn-box {
+      @extend %btnbox;
+    }
+  }
+
+  .plan-confirm-box {
+    width: p(854px);
+    padding: p(20px) p(17px);
+    border-radius: 5px;
+
+
+    >.title {
+      font-size: p(24px);
+      color: #006858;
+      margin-bottom: p(20px);
+    }
+
+    .close-circle {
+      width: p(30px);
+      height: p(30px);
+    }
+
+    table {
+      @include table-white;
+
+      thead {
+        background: #F2FAF9;
+
+        color: #00A088;
+
+        th {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
