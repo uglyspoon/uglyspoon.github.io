@@ -11,8 +11,7 @@
   <!-- Le styles -->
   <link href="./assets/bootstrap2/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/bootstrap2/bootstrap-responsive.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
-
+  <link href="./assets/css/select2.min.css" rel="stylesheet">
   <link href="./assets/css/base.css" rel="stylesheet">
   <link href="./assets/css/common.css" rel="stylesheet">
   <link href="./assets/css/mission.css" rel="stylesheet">
@@ -75,12 +74,12 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="no-border">
             <div>
               团队任务
               <img src="./assets/icon/arrow_right.svg" alt="" class="arrow">
             </div>
-            <ul style="display: none">
+            <ul style="display: none" class="no-border">
               <li>
                 <div class="closed">
                   年度已关闭的任务
@@ -663,12 +662,14 @@
     </div>
   </div>
   <script src="./assets/js/jquery-1.11.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
-  <script src="./assets/js/select.js"></script>
+  <script src="./assets/js/select2.min.js"></script>
   <script>
     $(function () {
       //点击展开
       $('ul.sider-menulist>li>div').click(function () {
+        $(this).parent('li').addClass('open').siblings('li').removeClass('open')
+        var isVisible = $(this).parent('li').find('ul').is(':visible')
+        isVisible && $(this).parent('li').removeClass('open')
         $(this).parent('li').find('ul').toggle()
         var arrow_icon = $(this).find('img').last();
         if (arrow_icon.attr('src').indexOf('right') !== -1) {

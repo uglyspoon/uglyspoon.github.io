@@ -133,13 +133,27 @@ header {
 
   .sub-nav {
     cursor: pointer;
+    position: relative;
     display: inline-block;
     width: 100%;
     line-height: p(26px);
     color: $C-00A088;
     background: $C-F7FFFE;
     padding-left: p(45px);
+
     // font-weight: 300;
+    &:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: #00A088;
+      border-radius: 50%;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
 
   .sider-menulist {
@@ -147,6 +161,11 @@ header {
 
     >li {
       cursor: pointer;
+      border-bottom: 1px solid $bg-ground;
+
+      &.open {
+        border-bottom: none;
+      }
 
       >div {
         display: flex;
@@ -166,11 +185,11 @@ header {
           width: p(14px);
           margin-left: p(65px);
         }
-
-        border-bottom: 1px solid $bg-ground;
       }
 
       >ul {
+        border-bottom: 1px solid $bg-ground;
+
         li {
           color: #666;
 
