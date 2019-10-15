@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/labelpeopleserver/static/css/main.0ce6ce1a.chunk.css",
-    "main.js": "/labelpeopleserver/static/js/main.074ee361.chunk.js",
-    "main.js.map": "/labelpeopleserver/static/js/main.074ee361.chunk.js.map",
-    "runtime~main.js": "/labelpeopleserver/static/js/runtime~main.6fa54ac0.js",
-    "runtime~main.js.map": "/labelpeopleserver/static/js/runtime~main.6fa54ac0.js.map",
-    "static/css/2.1782e1af.chunk.css": "/labelpeopleserver/static/css/2.1782e1af.chunk.css",
-    "static/js/2.92a00161.chunk.js": "/labelpeopleserver/static/js/2.92a00161.chunk.js",
-    "static/js/2.92a00161.chunk.js.map": "/labelpeopleserver/static/js/2.92a00161.chunk.js.map",
-    "index.html": "/labelpeopleserver/index.html",
-    "precache-manifest.9dde212521e3f0a8b53fc2e6dce8cf66.js": "/labelpeopleserver/precache-manifest.9dde212521e3f0a8b53fc2e6dce8cf66.js",
-    "service-worker.js": "/labelpeopleserver/service-worker.js",
-    "static/css/2.1782e1af.chunk.css.map": "/labelpeopleserver/static/css/2.1782e1af.chunk.css.map",
-    "static/css/main.0ce6ce1a.chunk.css.map": "/labelpeopleserver/static/css/main.0ce6ce1a.chunk.css.map"
+    "main.css": "/labelpeople2/static/css/main.0ce6ce1a.chunk.css",
+    "main.js": "/labelpeople2/static/js/main.30d5f2c9.chunk.js",
+    "main.js.map": "/labelpeople2/static/js/main.30d5f2c9.chunk.js.map",
+    "runtime~main.js": "/labelpeople2/static/js/runtime~main.8d327419.js",
+    "runtime~main.js.map": "/labelpeople2/static/js/runtime~main.8d327419.js.map",
+    "static/css/2.1782e1af.chunk.css": "/labelpeople2/static/css/2.1782e1af.chunk.css",
+    "static/js/2.92a00161.chunk.js": "/labelpeople2/static/js/2.92a00161.chunk.js",
+    "static/js/2.92a00161.chunk.js.map": "/labelpeople2/static/js/2.92a00161.chunk.js.map",
+    "index.html": "/labelpeople2/index.html",
+    "precache-manifest.0348fc8a3d260fcaf0577ce7bba4b7fb.js": "/labelpeople2/precache-manifest.0348fc8a3d260fcaf0577ce7bba4b7fb.js",
+    "service-worker.js": "/labelpeople2/service-worker.js",
+    "static/css/2.1782e1af.chunk.css.map": "/labelpeople2/static/css/2.1782e1af.chunk.css.map",
+    "static/css/main.0ce6ce1a.chunk.css.map": "/labelpeople2/static/css/main.0ce6ce1a.chunk.css.map"
   }
 }
