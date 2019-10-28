@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[52],{321:function(e,t,n){e.exports={cardContainer:"src-containers-studentinfo-style-module__cardContainer--aqjsM",titleBoxC:"src-containers-studentinfo-style-module__titleBoxC--3kaT3",titleBox:"src-containers-studentinfo-style-module__titleBox--pOpQl",flexCenter:"src-containers-studentinfo-style-module__flexCenter--2fKGe"}}}]);
+//# sourceMappingURL=52.44bbd458.chunk.js.map
