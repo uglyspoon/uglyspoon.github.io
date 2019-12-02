@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/labelpeople/static/css/main.2352812a.chunk.css",
-    "main.js": "/labelpeople/static/js/main.dc22ad7e.chunk.js",
-    "main.js.map": "/labelpeople/static/js/main.dc22ad7e.chunk.js.map",
-    "runtime~main.js": "/labelpeople/static/js/runtime~main.2e4a022d.js",
-    "runtime~main.js.map": "/labelpeople/static/js/runtime~main.2e4a022d.js.map",
-    "static/css/2.1782e1af.chunk.css": "/labelpeople/static/css/2.1782e1af.chunk.css",
-    "static/js/2.5d73272f.chunk.js": "/labelpeople/static/js/2.5d73272f.chunk.js",
-    "static/js/2.5d73272f.chunk.js.map": "/labelpeople/static/js/2.5d73272f.chunk.js.map",
-    "index.html": "/labelpeople/index.html",
-    "precache-manifest.a9a9ff9901249fa202960630bc708d19.js": "/labelpeople/precache-manifest.a9a9ff9901249fa202960630bc708d19.js",
-    "service-worker.js": "/labelpeople/service-worker.js",
-    "static/css/2.1782e1af.chunk.css.map": "/labelpeople/static/css/2.1782e1af.chunk.css.map",
-    "static/css/main.2352812a.chunk.css.map": "/labelpeople/static/css/main.2352812a.chunk.css.map"
+    "main.css": "./static/css/main.c7ecb37c.chunk.css",
+    "main.js": "./static/js/main.5a62228d.chunk.js",
+    "main.js.map": "./static/js/main.5a62228d.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.1782e1af.chunk.css": "./static/css/2.1782e1af.chunk.css",
+    "static/js/2.e8b037cc.chunk.js": "./static/js/2.e8b037cc.chunk.js",
+    "static/js/2.e8b037cc.chunk.js.map": "./static/js/2.e8b037cc.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.91e615899964420538f26c5b919d37df.js": "./precache-manifest.91e615899964420538f26c5b919d37df.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.1782e1af.chunk.css.map": "./static/css/2.1782e1af.chunk.css.map",
+    "static/css/main.c7ecb37c.chunk.css.map": "./static/css/main.c7ecb37c.chunk.css.map",
+    "static/media/dir.svg": "./static/media/dir.867ab584.svg"
   }
 }
